@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "window.zoomLevel": 0,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "editor.fontSize": 11,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "vim.statusBarColorControl": true
+}

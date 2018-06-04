@@ -87,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
-export TERM=xterm-256color-italic
+export TERM=xterm-256color
 
 echo -e "\033]6;1;bg;red;brightness;40\a"
 echo -e "\033]6;1;bg;green;brightness;44\a"
