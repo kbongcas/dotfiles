@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ "$1" = "os"  ]
+then
+    open Books/Programming/OS\ Books/Modern\ Operating\ Systems\ -\ 4th\ Edition.pdf
+    open ~/GoogleDrive/School/2018\(Spring\)/CSCI4401/Chapter3.pdf
+    #osascript -e 'tell application "System Events" to keystroke "w" using {command down}'
+fi
+
+if [ "$1" = "lin"  ]
+then
+    open "http://www.slader.com/textbook/9781118473504-elementary-linear-algebra-11th-edition/"
+    open ~/Books/Math/Howard\ Anton,\ Chris\ Rorres-Elementary\ Linear\ Algebra,\ Applications\ Version-Wiley\ \(2013\).pdf
+    open ~/GoogleDrive/School/2018\(Spring\)/MATH3511/AnswersOdd.pdf
+    open ~/GoogleDrive/School/2018\(Spring\)/MATH3511/syl.pdf
+fi

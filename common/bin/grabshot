@@ -1,0 +1,18 @@
+#!/bin/bash
+# Grabs all the .png screenshots on the desktop
+# this is assuming screenshots are saved in desktop as .png
+
+a=""
+
+if [ ! -d "img" ]; then
+   mkdir ./img 
+fi
+
+for i in ~/Desktop/*.png
+do
+    mv "$i" img/"$1$a.png"
+    let "a=a+1"
+done
+
+echo "![$1](img/$1.png){width=325px height=325px}" | pbcopy
+

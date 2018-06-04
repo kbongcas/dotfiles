@@ -1,0 +1,13 @@
+#!/bin/bash
+#Coverts .md files to .pdf files using pandoc 
+
+if [ -z "$2" ]
+then
+    pandoc $1 --latex-engine=xelatex --variable geometry:margin=1in  -o ${1/.md}.pdf
+fi
+
+if [ "$2" = "-eis"  ]
+then
+    pandoc $1 --latex-engine=xelatex -o ${1/.md}.pdf --from markdown --template eisvogel --listings
+fi
+
