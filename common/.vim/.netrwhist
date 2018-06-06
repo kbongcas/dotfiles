@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/kevinbongcasan/Programming/ATBS_Python'
-let g:netrw_dirhist_2='/Users/kevinbongcasan/Test/:'
-let g:netrw_dirhist_3='/Users/kevinbongcasan'
-let g:netrw_dirhist_4='/Users/kevinbongcasan/Programming/ATBS_Python/Chapter6_Manipulation_Strings/Project_Password_Locker'
-let g:netrw_dirhist_5='/Users/kevinbongcasan/.dotfiles/.vim/bundle'
