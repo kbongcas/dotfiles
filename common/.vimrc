@@ -95,7 +95,7 @@ hi clear SpellBad
 hi SpellBad cterm=underline
 
 "set numbers on the side
-"set nu
+set nu
 "set rnu
 
 "set a column at 80line(line wrap marker)
