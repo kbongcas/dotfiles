@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="spaceship"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -89,9 +89,11 @@ source $ZSH/oh-my-zsh.sh
 #source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 export TERM=xterm-256color
 
-echo -e "\033]6;1;bg;red;brightness;40\a"
-echo -e "\033]6;1;bg;green;brightness;44\a"
-echo -e "\033]6;1;bg;blue;brightness;52\a"
+if [ "$TERM_PROGRAM" = "iTerm.app" ]; then
+    echo -e "\033]6;1;bg;red;brightness;40\a"
+    echo -e "\033]6;1;bg;green;brightness;44\a"
+    echo -e "\033]6;1;bg;blue;brightness;52\a"
+fi
 
 #====Var. Paths================================================================
 
@@ -137,7 +139,7 @@ tskd(){
     tmux send-keys -t bottom "$str" c-m;
 }
 
-source /Users/kevinbongcasan/.oh-my-zsh/custom/tmuxinator/tmuxinator.zsh
+#source /Users/kevinbongcasan/.oh-my-zsh/custom/tmuxinator/tmuxinator.zsh
 
 #FolderNavigation
 
