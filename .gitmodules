@@ -41,5 +41,5 @@
 	path = common/.vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "https:/github.com/rakr/vim-one.git"]
-	path = https:/github.com/rakr/vim-one.git
-	url = /home/kev/.dotfiles/common/.vim/bundle/vim-one
+	path = /common/.vim/bundle/vim-one
+	url = https://github.com/rakr/vim-one.git
