@@ -97,6 +97,9 @@ fi
 
 #====Var. Paths================================================================
 
+#Java
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/"
+
 # JUnit Paths
 export JUNIT_HOME="$HOME/Library/JUnit"
 export PATH="$PATH:$JUNIT_HOME"
@@ -148,6 +151,7 @@ tskd(){
 hash -d semester=~/GoogleDrive/School/2018\(Spring\) #Nav. to current Semester Folder
 ##Notes
 
-
+source=~/.bash_profile
+source=~/.secondary_profile
 
 ##source "/Users/kevinbongcasan/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
