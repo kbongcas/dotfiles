@@ -43,3 +43,6 @@
 [submodule "common/.vim/bundle/vim-one"]
 	path = common/.vim/bundle/vim-one
 	url = https://github.com/rakr/vim-one.git
+[submodule "common/.vim/bundle/vim-markdown"]
+	path = common/.vim/bundle/vim-markdown
+	url = https://github.com/gabrielelana/vim-markdown.git
