@@ -46,12 +46,12 @@ windows:
   - servers:
         layout: even-vertical 
         panes:
-          - cd dndcards_fe; /bin/sleep 1; clear; ng serve --port=1338 
-          - cd dndcards_be; /bin/sleep 1; clear; mvn clean install spring-boot:run
-          - cd dndcards_kc; /bin/sleep 1; clear; keycloak-3.4.3.Final/;bin/standalone.sh -Djboss.socket.binding.port-offset=100
+          - cd dnd_cards/dndcards_fe; /bin/sleep 1; clear; ng serve --port=1338 
+          - cd dnd_cards/dndcards_be; /bin/sleep 1; clear; mvn clean install spring-boot:run
+          - cd dnd_cards/dndcards_kc; /bin/sleep 1; clear; keycloak-3.4.3.Final/;bin/standalone.sh -Djboss.socket.binding.port-offset=100
   - cl:
         layout: even-horizontal
         panes:
-          - cd dndcards_fe; clear
-          - cd dndcards_be; clear
+          - cd dnd_cards/dndcards_fe; clear
+          - cd dnd_cards/dndcards_be; clear
 
