@@ -9,7 +9,7 @@ The repository for my dotfiles.
 System links files in the common folder in to the home directory.
 
 * `-v`  verbose
-* `j` t target 
+* `-t` the target 
 * `~` target directory
 * `common` name of directory you want to stow.
 
@@ -23,7 +23,7 @@ Unlinks the files in the common folder that is in the home direcotry.
 
 * '-D' delete links.
 * `-v`  verbose
-* `j` t target 
+* `-t` t target 
 * `~` target directory
 * `common` name of directory you want to un stow.
 
