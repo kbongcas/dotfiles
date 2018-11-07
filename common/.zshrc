@@ -98,7 +98,7 @@ fi
 #====Var. Paths================================================================
 
 #Java
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
 
 # JUnit Paths
 export JUNIT_HOME="$HOME/Library/JUnit"
